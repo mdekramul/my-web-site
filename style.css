@@ -1,8 +1,107 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
-.left-half{
+.first-section{
+    background-image: url(images/bg/header-bg.png);
+    padding-bottom: 100px;
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.first-left-half{
     float: left;
-    margin: 100px;
+    margin: 5%;
+    padding: 2%;
     width: 37%;
+}
+.first-right-half{
+    width: 37%;
+    float: left;
+}
+.first-right-half img{
+    width: 100%;
+}
+.second-section{
+    background-image: url(images/bg/biography-bg.png);
+    height: 900px;
+    padding: 0%;
+}
+.second-left-half{
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    width: 37%;
+}
+.second-left-half img{
+    width: 100%;
+}
+.second-right-half{
+    margin-top: 280px;
+    float: left;
+    width: 37%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(231, 95, 118);
+    color: white;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+h1{
+    font-weight: bold;
+    color:rgb(231, 95, 118) ;
+    font-size: 30px;
+}
+
+.third-section{
+    padding: 2px 20px;
+}
+.third-section img{
+    float: left;
+    height: 400px;
+    width: 550px;
+    padding: 2px 7px;
+    margin: 3px;
+    padding-bottom: 200px;
+}
+.work{
+    margin-left: 80px;
+}
+.working{
+    text-align: center;
+    color: black;
+    padding: 100px;
+}
+.fourth-section{
+    text-align: center;
+    height: 600px;
+}
+.client{
+    text-align: center;
+    padding: 80px 100px;
+    color: black;
+}
+.footer-line{
+    text-align: center;
+}
+.email{
+    background-color: rgb(232, 76, 128);
+    border-radius: 10px;
+    height: 130px;
+    width: 700px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 584px;
+}
+.email h1{
+    color: white; 
+    text-align: center;
+}
+.ceo p{
+    color: rgb(29, 29, 29);
 }
